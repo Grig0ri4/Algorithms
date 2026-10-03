@@ -15,7 +15,7 @@ bool isDivisibleByOthers(const Array* arr, size_t index, size_t arrSize)
         }
 
         Data other = array_get(arr, j);
-        if (other != 0 && other != current && current % other == 0) {
+        if (other != 0 && current % other == 0) {
             return true;
         }
     }

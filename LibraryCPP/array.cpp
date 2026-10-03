@@ -11,7 +11,7 @@ Array *array_create(size_t size)
 {
     Array* arr = new Array;
     arr->size = size;
-    arr->data = new Data[size](); // инициализируем нулями
+    arr->data = new Data[size]();
     return arr;
 }
 
